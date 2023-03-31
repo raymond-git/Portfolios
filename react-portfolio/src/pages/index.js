@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { GiAbstract047 } from "react-icons/gi"
-
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white px-10'>
+      <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons'>myPortfolio</h1>
@@ -21,12 +21,78 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Raymond Huang</h2>
-            <h3 className='text-2xl py-2'>Developer and Designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>I am currently looking for a frontend developement role. I am also looking for a designer role</p>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl '>Raymond H.</h2>
+            <h3 className='text-2xl py-2 md:text-3xl'>Developer and Designer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
+              Hi! I am a frontend developer with a passion for creating beautiful and functional web experiences for users.
+            </p>
+          </div>
+          <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
+            <AiFillLinkedin />
+            <AiFillTwitterCircle />
+            <AiFillYoutube />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-8 md:w-96 md:h-96">
+            <img className="mx-auto w-52 h-52 flex" src="man.png" style={{ transform: 'translateY(40px)' }}></img>
           </div>
         </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Coding Portfolio</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Welcome to my portfolio page! This is a collection of my personal
+              projects, which I have designed and developed over the course of my career. Each project represents a unique challenge
+              and opportunity to explore new technologies and design principles. I have worked hard to create projects that not only
+              demonstrate my technical skills, but also showcase my creativity and problem-solving abilities. I hope you enjoy browsing
+              through my portfolio and learning more about my work!
+            </p>
+
+            <div className=''>
+              <div className='rounder-xl p-10 shadow-lg my-10'>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+              </div>
+              <div className='rounder-xl p-10 shadow-lg my-10'>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+              </div>
+              <div className='rounder-xl p-10 shadow-lg my-10'>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+                <h1>hello</h1>
+              </div>
+            </div>
+
+
+            <div>
+              <h3 className='text-3xl py-1 my-10'>UX Design Projects</h3>
+            </div>
+
+          </div>
+        </section>
+
       </main>
+      <footer>
+        <a className="text-xs px-2" href="https://www.flaticon.com/free-icons/boy" title="boy icons">Boy icons created by Freepik - Flaticon</a>
+      </footer>
     </div>
   )
 } 
