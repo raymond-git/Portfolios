@@ -28,9 +28,9 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
-            <AiFillLinkedin />
-            <AiFillTwitterCircle />
-            <AiFillYoutube />
+           <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin/></a>
+            <a href=""><AiFillTwitterCircle/></a>
+            <a href=""><AiFillYoutube/></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-8 md:w-96 md:h-96">
             <img className="mx-auto w-52 h-52 flex" src="man.png" style={{ transform: 'translateY(40px)' }}></img>
@@ -48,15 +48,15 @@ export default function Home() {
             </p>
 
             <div className='lg:flex gap-10'>
-              <div className='rounder-xl p-10 shadow-lg my-10'>
+              <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>DogApi Project</h1>
                 <img className='mt-4 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
                 <p className='mt-2 leading-6 py-2 '>
                   This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
-                  to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React, 
+                  to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React,
                   a JavaScript framework and library
                 </p>
-                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technology Used</h2>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
                 <div className='flex justify-start gap-16'>
                   <ul>
                     <li>HTML5/CSS</li>
@@ -72,30 +72,29 @@ export default function Home() {
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
                   <p>
-                    This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing 
-                    them to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as 
-                    React 
+                    When developing this website, I encountered various obstacles, and one of them was the difficulty in establishing
+                    a connection to MongoDB and second deploying the backend server where users are able to login without localhost.
                   </p>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
-                  <p>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
-                    activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
-                    to learn a new skills such as React
+                  <p>
+                    I spent considerable time researching and watching tutorial videos to complete this project. Though I faced
+                    challenges in deploying the backend server, I was able to deploy the website as a first-timer for the client side.
                   </p>
                 </div>
               </div>
 
 
-              <div className='rounder-xl p-10 shadow-lg my-10'>
+              <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>Valorant Project</h1>
                 <img className='mt-4 w-80 h-50 mx-auto' src="Valorants.jpg"></img>
                 <p className='mt-2 leading-6 py-2'>
-                  I am a fan of the PC game, Valorant, and I find it exciting to work on a project related to my favorite game. I 
-                  discovered that Valorant provides a free API, and I am eager to take advantage of this opportunity to gain hands-on 
+                  I am a fan of the PC game, Valorant, and I find it exciting to work on a project related to my favorite game. I
+                  discovered that Valorant provides a free API, and I am eager to take advantage of this opportunity to gain hands-on
                   experience working with API data.
                 </p>
-                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technology Used</h2>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
                 <div className='flex justify-start gap-16'>
                   <ul>
                     <li>HTML5</li>
@@ -112,7 +111,7 @@ export default function Home() {
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
                   <p>
                     Designing a responsive interface that works well across various devices with varying screen sizes has been one of
-                    the most significant challenges that I have encountered while working on this project. I tried bootstrap responsiveness
+                    the most significant challenges I've dealt with working on this project. I tried bootstrap responsiveness
                     but that didn't solve it.
                   </p>
                 </div>
@@ -120,52 +119,63 @@ export default function Home() {
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
                   <p>
                     One of the solutions I found was to use CSS media queries to help me
-                    target specific screen sizes and adjust website layout accordingly. By incorporating media queries, 
+                    target specific screen sizes and adjust website layout accordingly. By incorporating media queries,
                     I successfully achieved responsiveness for both mobile and desktop devices.
                   </p>
                 </div>
               </div>
 
 
-              <div className='rounder-xl p-10 shadow-lg my-10'>
-                <h1 className='text-2xl text-center'>DogApi Project</h1>
-                <img className='mt-4 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
-                <p className='mt-2 leading-6 py-2 '>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
-                  activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
-                  to learn a new skills such as React
+              <div className='rounder-xl p-10 shadow-lg my-10 border'>
+                <h1 className='text-2xl text-center'>Portfolio</h1>
+                <img className='rounder-xl border to-black mt-4 w-80 h-44 mx-auto' src="PortfolioImage.jpg"></img>
+                <p className='mt-2 leading-6 py-2'>
+                  I have decided to create a portfolio page where I can consolidate all my projects into a single location. As my
+                  resume was becoming too cluttered with my work experience, having a dedicated space to organize and showcase my
+                  projects makes a lot more sense.
                 </p>
-                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technology Used</h2>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
                 <div className='flex justify-start gap-16'>
                   <ul>
                     <li>HTML5</li>
                     <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>Tailwind</li>
                   </ul>
                   <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>Next.js</li>
                   </ul>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
-                  <p>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
-                    activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
-                    to learn a new skills such as React</p>
+                  <p>
+                    One of the challenges I face in creating my portfolio website is making it easily
+                    digestible for the user. As my portfolio includes both coding and UX design projects, I need to ensure that
+                    it presents information in a clear and organized manner. 
+                  </p>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
-                  <p>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
-                    activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
-                    to learn a new skills such as React</p>
+                  <p>
+                  As an individual passionate about UX design and committed to understanding user needs, I sought feedback from a group of people on three 
+                  different variations. I chose the most positively received design to create an engaging
+                  and visually appealing portfolio page.
+                  </p>
                 </div>
               </div>
-
             </div>
-            <div>
-              <h3 className='text-3xl py-1 my-10'>UX Design Projects</h3>
-            </div>
+          </div>
+        </section>
 
+
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1 my-10'>UX Design Projects</h3>
+          </div>
+          <div className='lg:flex gap-10'>
+            <div className='rounder-xl p-10 shadow-lg my-10'></div>
+            <div className='rounder-xl p-10 shadow-lg my-10'></div>
+            <div className='rounder-xl p-10 shadow-lg my-10'></div>
           </div>
         </section>
 
