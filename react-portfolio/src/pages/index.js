@@ -39,49 +39,129 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Coding Portfolio</h3>
+            <h3 className='text-3xl py-1'>Coding Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Welcome to my portfolio page! This is a collection of my personal
-              projects, which I have designed and developed over the course of my career. Each project represents a unique challenge
-              and opportunity to explore new technologies and design principles. I have worked hard to create projects that not only
-              demonstrate my technical skills, but also showcase my creativity and problem-solving abilities. I hope you enjoy browsing
-              through my portfolio and learning more about my work!
+              Welcome to my portfolio page! This is a collection of my personal projects, which I have designed and developed over the
+              course of my career. Each project represents a unique challenge and opportunity to explore new technologies and design
+              principles. I have worked hard to create projects that not only demonstrate my technical skills, but also showcase my
+              creativity and problem-solving abilities. I hope you enjoy browsing through my portfolio and learning more about my work!
             </p>
 
-            <div className=''>
+            <div className='lg:flex gap-10'>
               <div className='rounder-xl p-10 shadow-lg my-10'>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
+                <h1 className='text-2xl text-center'>DogApi Project</h1>
+                <img className='mt-4 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
+                <p className='mt-2 leading-6 py-2 '>
+                  This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
+                  to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React, 
+                  a JavaScript framework and library
+                </p>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technology Used</h2>
+                <div className='flex justify-start gap-16'>
+                  <ul>
+                    <li>HTML5/CSS</li>
+                    <li>Tailwind</li>
+                    <li>MongoDB</li>
+                  </ul>
+                  <ul>
+                    <li>ReactJS</li>
+                    <li>NodeJS/Express.js</li>
+                    <li>Webpack</li>
+                  </ul>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
+                  <p>
+                    This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing 
+                    them to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as 
+                    React 
+                  </p>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
+                  <p>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
+                    activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
+                    to learn a new skills such as React
+                  </p>
+                </div>
               </div>
+
+
               <div className='rounder-xl p-10 shadow-lg my-10'>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
+                <h1 className='text-2xl text-center'>Valorant Project</h1>
+                <img className='mt-4 w-80 h-50 mx-auto' src="Valorants.jpg"></img>
+                <p className='mt-2 leading-6 py-2'>
+                  I am a fan of the PC game, Valorant, and I find it exciting to work on a project related to my favorite game. I 
+                  discovered that Valorant provides a free API, and I am eager to take advantage of this opportunity to gain hands-on 
+                  experience working with API data.
+                </p>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technology Used</h2>
+                <div className='flex justify-start gap-16'>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>NodeJS</li>
+                  </ul>
+                  <ul>
+                    <li>ReactJS</li>
+                    <li>Tailwind</li>
+                    <li>Webpack</li>
+                  </ul>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
+                  <p>
+                    Designing a responsive interface that works well across various devices with varying screen sizes has been one of
+                    the most significant challenges that I have encountered while working on this project. I tried bootstrap responsiveness
+                    but that didn't solve it.
+                  </p>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
+                  <p>
+                    One of the solutions I found was to use CSS media queries to help me
+                    target specific screen sizes and adjust website layout accordingly. By incorporating media queries, 
+                    I successfully achieved responsiveness for both mobile and desktop devices.
+                  </p>
+                </div>
               </div>
+
+
               <div className='rounder-xl p-10 shadow-lg my-10'>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
-                <h1>hello</h1>
+                <h1 className='text-2xl text-center'>DogApi Project</h1>
+                <img className='mt-4 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
+                <p className='mt-2 leading-6 py-2 '>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
+                  activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
+                  to learn a new skills such as React
+                </p>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technology Used</h2>
+                <div className='flex justify-start gap-16'>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
+                  <p>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
+                    activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
+                    to learn a new skills such as React</p>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
+                  <p>This project serves two main purposes. Firstly, it provides users with a fun and relaxing
+                    activity by allowing them to browse cute and funny dog images. Secondly, it offers an opportunity for me to
+                    to learn a new skills such as React</p>
+                </div>
               </div>
+
             </div>
-
-
             <div>
               <h3 className='text-3xl py-1 my-10'>UX Design Projects</h3>
             </div>
