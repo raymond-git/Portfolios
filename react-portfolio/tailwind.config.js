@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: 'burtons'
-      }
+      },
+      colors: {
+        'linkedin-blue': '#0077B5',
+      },
     }
   },
   plugins: [],

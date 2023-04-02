@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { GiAbstract047 } from "react-icons/gi"
-import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { SiGmail } from 'react-icons/si'
 
 export default function Home() {
   return (
@@ -28,9 +29,11 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
-            <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin /></a>
-            <a href=""><AiFillTwitterCircle /></a>
-            <a href=""><AiFillYoutube /></a>
+            <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin className="text-blue-600" /></a>
+            <a href="https://github.com/raymond-git" target="_blank"><AiFillGithub className="text-black" /></a>
+            <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Go to Gmail">
+              <SiGmail className="text-red-500 hover:text-red-600" />
+            </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-8 md:w-96 md:h-96">
             <img className="mx-auto w-52 h-52 flex" src="man.png" style={{ transform: 'translateY(40px)' }}></img>
@@ -45,27 +48,27 @@ export default function Home() {
               principles. I have worked hard to create projects that not only demonstrate my technical skills, but also showcase my
               creativity and problem-solving abilities. I hope you enjoy browsing through my portfolio and learning more about my work!
             </p>
-            <div className='lg:flex gap-10' >
+            <div className='lg:flex justify-between gap-10'>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>DogApi Project</h1>
                 <img className='mt-6 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
-                <p className='mt-6 leading-6 py-2 '>
+                <p className='mt-6 leading-6 py-2'>
                   This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
                   to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React,
                   a JavaScript framework and library.
                 </p>
                 <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
-                <div className='flex justify-start gap-10'>
-                  <ul className='unorderList'>
-                    <li>HTML5/CSS</li>
-                    <li>Tailwind</li>
-                    <li>MongoDB</li>
-                  </ul>
-                  <ul className='unorderList'>
-                    <li>ReactJS</li>
-                    <li>NodeJS/Express.js</li>
-                    <li>Webpack</li>
-                  </ul>
+                <div className='lg:flex justify-start gap-6'>
+                  <div>
+                    <p>HTML5</p>
+                    <p>Tailwind</p>
+                    <p>MongoDB</p>
+                  </div>
+                  <div>
+                    <p>ReactJS</p>
+                    <p>NodeJS</p>
+                    <p>Webpack</p>
+                  </div>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
@@ -81,7 +84,7 @@ export default function Home() {
                     challenges in deploying the backend server, I was able to deploy the website as a first-timer for the client side,
                     which is a notable achievement.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="https://docs.google.com/document/d/19MyHJZL4rbaXQrNRvM1wqrJPSv1XTFDYcbO4ucB57ns/edit?usp=sharing" target="_blank">View Project</a>
                 </div>
               </div>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
@@ -93,17 +96,17 @@ export default function Home() {
                   experience working with API data.
                 </p>
                 <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
-                <div className='flex justify-start gap-10'>
-                  <ul className='unorderList'>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>NodeJS</li>
-                  </ul>
-                  <ul className='unorderList'>
-                    <li>ReactJS</li>
-                    <li>Tailwind</li>
-                    <li>Webpack</li>
-                  </ul>
+                <div className='lg:flex justify-start gap-6'>
+                  <div>
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>NodeJS</p>
+                  </div>
+                  <div>
+                    <p>ReactJS</p>
+                    <p>Tailwind</p>
+                    <p>Webpack</p>
+                  </div>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
@@ -120,7 +123,7 @@ export default function Home() {
                     target specific screen sizes and adjust website layout accordingly. By incorporating media queries,
                     I successfully achieved responsiveness for both mobile and desktop devices.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
                 </div>
               </div>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
@@ -132,15 +135,16 @@ export default function Home() {
                   projects makes a lot more sense.
                 </p>
                 <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
-                <div className='flex justify-start gap-10'>
-                  <ul className='unorderList'>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Tailwind</li>
-                  </ul>
-                  <ul className='unorderList'>
-                    <li>Next.js</li>
-                  </ul>
+                <div className='sm:flex-row lg:flex justify-start gap-6'>
+                  <div>
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>tailwind</p>
+                  </div>
+                  <div>
+                    <p>Tailwind</p>
+                    <p>Next.js</p>
+                  </div>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
@@ -157,18 +161,17 @@ export default function Home() {
                     different variations. I chose the most positively received design to create an engaging
                     and visually appealing portfolio page.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
         <section>
           <div>
             <h3 className='text-3xl mt-14'>UX Design Projects</h3>
           </div>
-          <div className='lg:flex gap-10'>
+          <div className='lg:flex justify-between gap-10'>
             <div className='rounder-xl p-10 shadow-lg my-10 border'>
               <h1 className='text-2xl text-center'>AdaLace</h1>
               <img className='mt-6 w-80 h-50 mx-auto' src="AdaLace.jpg"></img>
@@ -177,7 +180,7 @@ export default function Home() {
                 The objective of this project is to overhaul the entire website of a pre-college preparatory program
                 in order to enhance the user's experience.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
             </div>
             <div className='rounder-xl p-10 shadow-lg my-10 border'>
               <h1 className='text-2xl text-center'>EcoFoodie</h1>
@@ -187,21 +190,20 @@ export default function Home() {
                 to address local issues. One of our goals is to create an app that educates individuals on proper waste
                 disposal techniques at local restaurants.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
             </div>
             <div className='rounder-xl p-10 shadow-lg my-10 border'>
               <h1 className='text-2xl text-center'>StreamHub</h1>
-              <img className='mt-6 w-80 h-50 mx-auto' src="Ecofoodie.jpg"></img>
-              <p className='mt-11 leading-6 py-2 '>
+              <img className='mt-14 w-50 h-36 mx-auto' src="StreamHub.jpg"></img>
+              <p className='mt-4 leading-6 py-2 '>
                 This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
                 to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React,
                 a JavaScript framework and library.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
             </div>
           </div>
         </section>
-
       </main>
       <footer>
         <a className="text-xs px-2" href="https://www.flaticon.com/free-icons/boy" title="boy icons">Boy icons created by Freepik - Flaticon</a>
