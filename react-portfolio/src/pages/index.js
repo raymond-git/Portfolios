@@ -28,15 +28,14 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
-           <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin/></a>
-            <a href=""><AiFillTwitterCircle/></a>
-            <a href=""><AiFillYoutube/></a>
+            <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin /></a>
+            <a href=""><AiFillTwitterCircle /></a>
+            <a href=""><AiFillYoutube /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-8 md:w-96 md:h-96">
             <img className="mx-auto w-52 h-52 flex" src="man.png" style={{ transform: 'translateY(40px)' }}></img>
           </div>
         </section>
-
         <section>
           <div>
             <h3 className='text-3xl py-1'>Coding Projects</h3>
@@ -46,24 +45,23 @@ export default function Home() {
               principles. I have worked hard to create projects that not only demonstrate my technical skills, but also showcase my
               creativity and problem-solving abilities. I hope you enjoy browsing through my portfolio and learning more about my work!
             </p>
-
-            <div className='lg:flex gap-10'>
+            <div className='lg:flex gap-10' >
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>DogApi Project</h1>
-                <img className='mt-4 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
-                <p className='mt-2 leading-6 py-2 '>
+                <img className='mt-6 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
+                <p className='mt-6 leading-6 py-2 '>
                   This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
                   to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React,
-                  a JavaScript framework and library
+                  a JavaScript framework and library.
                 </p>
                 <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
-                <div className='flex justify-start gap-16'>
-                  <ul>
+                <div className='flex justify-start gap-10'>
+                  <ul className='unorderList'>
                     <li>HTML5/CSS</li>
                     <li>Tailwind</li>
                     <li>MongoDB</li>
                   </ul>
-                  <ul>
+                  <ul className='unorderList'>
                     <li>ReactJS</li>
                     <li>NodeJS/Express.js</li>
                     <li>Webpack</li>
@@ -80,28 +78,28 @@ export default function Home() {
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
                   <p>
                     I spent considerable time researching and watching tutorial videos to complete this project. Though I faced
-                    challenges in deploying the backend server, I was able to deploy the website as a first-timer for the client side.
+                    challenges in deploying the backend server, I was able to deploy the website as a first-timer for the client side,
+                    which is a notable achievement.
                   </p>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
                 </div>
               </div>
-
-
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>Valorant Project</h1>
-                <img className='mt-4 w-80 h-50 mx-auto' src="Valorants.jpg"></img>
-                <p className='mt-2 leading-6 py-2'>
+                <img className='mt-6 w-80 h-50 mx-auto' src="Valorants.jpg"></img>
+                <p className='mt-6 leading-6 py-2'>
                   I am a fan of the PC game, Valorant, and I find it exciting to work on a project related to my favorite game. I
                   discovered that Valorant provides a free API, and I am eager to take advantage of this opportunity to gain hands-on
                   experience working with API data.
                 </p>
                 <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
-                <div className='flex justify-start gap-16'>
-                  <ul>
+                <div className='flex justify-start gap-10'>
+                  <ul className='unorderList'>
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>NodeJS</li>
                   </ul>
-                  <ul>
+                  <ul className='unorderList'>
                     <li>ReactJS</li>
                     <li>Tailwind</li>
                     <li>Webpack</li>
@@ -122,26 +120,25 @@ export default function Home() {
                     target specific screen sizes and adjust website layout accordingly. By incorporating media queries,
                     I successfully achieved responsiveness for both mobile and desktop devices.
                   </p>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
                 </div>
               </div>
-
-
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>Portfolio</h1>
-                <img className='rounder-xl border to-black mt-4 w-80 h-44 mx-auto' src="PortfolioImage.jpg"></img>
-                <p className='mt-2 leading-6 py-2'>
+                <img className='mt-6 w-80 h-50 mx-auto rounder-xl border to-black ' src="PortfolioImage.jpg"></img>
+                <p className='mt-6 leading-6 py-2'>
                   I have decided to create a portfolio page where I can consolidate all my projects into a single location. As my
                   resume was becoming too cluttered with my work experience, having a dedicated space to organize and showcase my
                   projects makes a lot more sense.
                 </p>
                 <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
-                <div className='flex justify-start gap-16'>
-                  <ul>
+                <div className='flex justify-start gap-10'>
+                  <ul className='unorderList'>
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>Tailwind</li>
                   </ul>
-                  <ul>
+                  <ul className='unorderList'>
                     <li>Next.js</li>
                   </ul>
                 </div>
@@ -150,32 +147,58 @@ export default function Home() {
                   <p>
                     One of the challenges I face in creating my portfolio website is making it easily
                     digestible for the user. As my portfolio includes both coding and UX design projects, I need to ensure that
-                    it presents information in a clear and organized manner. 
+                    it presents information in a clear and organized manner.
                   </p>
                 </div>
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
                   <p>
-                  As an individual passionate about UX design and committed to understanding user needs, I sought feedback from a group of people on three 
-                  different variations. I chose the most positively received design to create an engaging
-                  and visually appealing portfolio page.
+                    As an individual passionate about UX design and committed to understanding user needs, I sought feedback from a group of people on three
+                    different variations. I chose the most positively received design to create an engaging
+                    and visually appealing portfolio page.
                   </p>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-
-
         <section>
           <div>
-            <h3 className='text-3xl py-1 my-10'>UX Design Projects</h3>
+            <h3 className='text-3xl mt-14'>UX Design Projects</h3>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='rounder-xl p-10 shadow-lg my-10'></div>
-            <div className='rounder-xl p-10 shadow-lg my-10'></div>
-            <div className='rounder-xl p-10 shadow-lg my-10'></div>
+            <div className='rounder-xl p-10 shadow-lg my-10 border'>
+              <h1 className='text-2xl text-center'>AdaLace</h1>
+              <img className='mt-6 w-80 h-50 mx-auto' src="AdaLace.jpg"></img>
+              <p className='mt-6 leading-6 py-2 '>
+                AdaLace is an existing web application that help students search for pre-college prepartory program.
+                The objective of this project is to overhaul the entire website of a pre-college preparatory program
+                in order to enhance the user's experience.
+              </p>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+            </div>
+            <div className='rounder-xl p-10 shadow-lg my-10 border'>
+              <h1 className='text-2xl text-center'>EcoFoodie</h1>
+              <img className='mt-11 w-80 h-50 mx-auto' src="Ecofoodie.jpg"></img>
+              <p className='mt-6 leading-6 py-2 '>
+                During the time at the Uber Fellowship program, my team and I were tasked with leveraging technology
+                to address local issues. One of our goals is to create an app that educates individuals on proper waste
+                disposal techniques at local restaurants.
+              </p>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+            </div>
+            <div className='rounder-xl p-10 shadow-lg my-10 border'>
+              <h1 className='text-2xl text-center'>StreamHub</h1>
+              <img className='mt-6 w-80 h-50 mx-auto' src="Ecofoodie.jpg"></img>
+              <p className='mt-11 leading-6 py-2 '>
+                This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
+                to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React,
+                a JavaScript framework and library.
+              </p>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center btn btn-lg btn-block btn-outline-primary' href="#">View Project</a>
+            </div>
           </div>
         </section>
 
