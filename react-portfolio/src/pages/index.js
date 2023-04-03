@@ -29,19 +29,19 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center gap-16 text-5xl py-3 text-gray-600'>
-            <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin className="text-blue-600" /></a>
-            <a href="https://github.com/raymond-git" target="_blank"><AiFillGithub className="text-black" /></a>
+            <a href="https://www.linkedin.com/in/raymondhuang-" target="_blank"><AiFillLinkedin /></a>
+            <a href="https://github.com/raymond-git" target="_blank"><AiFillGithub /></a>
             <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Go to Gmail">
-              <SiGmail className="text-red-500 hover:text-red-600" />
+              <SiGmail />
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-8 md:w-96 md:h-96">
-            <img className="mx-auto w-52 h-52 flex" src="man.png" style={{ transform: 'translateY(40px)' }}></img>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mt-8 md:w-94 md:h-94">
+            <img className="mx-auto w-44 h-44 flex" src="man.png" style={{ transform: 'translateY(40px)' }}></img>
           </div>
         </section>
-        <section>
+        <section className='hello'>
           <div>
-            <h3 className='text-3xl py-1'>Coding Projects</h3>
+            <h3 className='text-3xl'>Coding Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Welcome to my portfolio page! This is a collection of my personal projects, which I have designed and developed over the
               course of my career. Each project represents a unique challenge and opportunity to explore new technologies and design
