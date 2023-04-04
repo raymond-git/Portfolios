@@ -161,7 +161,7 @@ export default function Home() {
                     different variations. I chose the most positively received design to create an engaging
                     and visually appealing portfolio page.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://main--joyful-peony-82d08a.netlify.app/">View Project</a>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function Home() {
                 The objective of this project is to overhaul the entire website of a pre-college preparatory program
                 in order to enhance the user's experience.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://uxfol.io/4f1d82af">View Project</a>
             </div>
             <div className='rounder-xl p-10 shadow-lg my-10 border'>
               <h1 className='text-2xl text-center'>EcoFoodie</h1>
@@ -190,7 +190,7 @@ export default function Home() {
                 to address local issues. One of our goals is to create an app that educates individuals on proper waste
                 disposal techniques at local restaurants.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://raymondhuang515.wixsite.com/ecofoodie">View Project</a>
             </div>
             <div className='rounder-xl p-10 shadow-lg my-10 border'>
               <h1 className='text-2xl text-center'>StreamHub</h1>
@@ -200,7 +200,7 @@ export default function Home() {
                 products and systems that are easy and intuitive to use. We applied the concepts/principles we learned throughout
                 the course to our final project.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target='_blank' href="#">View Project</a>
             </div>
           </div>
         </section>
