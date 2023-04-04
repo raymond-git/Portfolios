@@ -18,7 +18,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>myPortfolio</h1>
             <ul className='flex items-center'>
               <li><GiAbstract047 className='cursor-pointer text-2xl' /></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' target="_blank" href="https://publuu.com/flip-book/109878/294049">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -50,7 +50,7 @@ export default function Home() {
             </p>
             <div className='lg:flex justify-between gap-10'>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
-                <h1 className='text-2xl text-center'>DogApi Project</h1>
+                <h1 className='text-2xl text-center'>DogApi</h1>
                 <img className='mt-6 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
                 <p className='mt-6 leading-6 py-2'>
                   This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
@@ -80,7 +80,7 @@ export default function Home() {
                 <div className='py-2'>
                   <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
                   <p>
-                    I spent considerable time researching and watching tutorial videos to complete this project. Though I faced
+                    I spent considerable time researching and watching tutorial videos to complete this project. Even though I faced
                     challenges in deploying the backend server, I was able to deploy the website as a first-timer for the client side,
                     which is a notable achievement.
                   </p>
@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
-                <h1 className='text-2xl text-center'>Valorant Project</h1>
+                <h1 className='text-2xl text-center'>Valorant</h1>
                 <img className='mt-6 w-80 h-50 mx-auto' src="Valorants.jpg"></img>
                 <p className='mt-6 leading-6 py-2'>
                   I am a fan of the PC game, Valorant, and I find it exciting to work on a project related to my favorite game. I
@@ -196,9 +196,9 @@ export default function Home() {
               <h1 className='text-2xl text-center'>StreamHub</h1>
               <img className='mt-14 w-50 h-36 mx-auto' src="StreamHub.jpg"></img>
               <p className='mt-4 leading-6 py-2 '>
-                This project serves two main purposes. Firstly, it provides users with a fun and relaxing activity by allowing them
-                to browse cute and funny dog images. Secondly, it offers an opportunity for me to learn a new skills such as React,
-                a JavaScript framework and library.
+                During my time in college I took a human interaction course where our team and I have to design any
+                products and systems that are easy and intuitive to use. We applied the concepts/principles we learned throughout
+                the course to our final project.
               </p>
               <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
             </div>
