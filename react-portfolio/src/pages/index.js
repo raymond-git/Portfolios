@@ -123,7 +123,7 @@ export default function Home() {
                     target specific screen sizes and adjust website layout accordingly. By incorporating media queries,
                     I successfully achieved responsiveness for both mobile and desktop devices.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' href="#">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://main--legendary-crostata-bdcd7b.netlify.app/">View Project</a>
                 </div>
               </div>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
