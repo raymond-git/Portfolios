@@ -161,7 +161,7 @@ export default function Home() {
                     different variations. I chose the most positively received design to create an engaging
                     and visually appealing portfolio page.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://main--joyful-peony-82d08a.netlify.app/">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://main--meek-snickerdoodle-31ef30.netlify.app/">View Project</a>
                 </div>
               </div>
             </div>
