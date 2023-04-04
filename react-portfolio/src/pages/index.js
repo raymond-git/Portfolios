@@ -200,7 +200,7 @@ export default function Home() {
                 products and systems that are easy and intuitive to use. We applied the concepts/principles we learned throughout
                 the course to our final project.
               </p>
-              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target='_blank' href="#">View Project</a>
+              <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target='_blank' href="https://www.figma.com/file/KAT2vZVEhMmLgNPl0IHkXV/StreamHub?node-id=0-1">View Project</a>
             </div>
           </div>
         </section>
