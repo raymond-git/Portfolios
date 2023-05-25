@@ -48,7 +48,45 @@ export default function Home() {
               principles. I have worked hard to create projects that not only demonstrate my technical skills, but also showcase my
               creativity and problem-solving abilities. I hope you enjoy browsing through my portfolio and learning more about my work!
             </p>
-            <div className='lg:flex justify-between gap-10'>
+            <div className='lg:grid grid-cols-3 justify-between gap-10'>
+              <div className='rounder-xl p-10 shadow-lg my-10 border'>
+                <h1 className='text-2xl text-center'>ShopiCart</h1>
+                <img className='mt-6 w-80 h-50 mx-auto rounder-xl border to-black ' src="shopicart.jpg"></img>
+                <p className='mt-6 leading-6 py-2'>
+                  I built this project as a means to learn Redux, a powerful state management library commonly used in JavaScript applications.
+                  By creating this project, I aimed to gain a deeper understanding of Redux's core concepts and principles.
+                </p>
+                <h2 className='text-lg mt-4 font-bold text-teal-600'>Technologies Used</h2>
+                <div className='sm:flex-row lg:flex justify-start gap-6'>
+                  <div>
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>tailwind</p>
+                  </div>
+                  <div>
+                    <p>ReactJS</p>
+                    <p>Redux Toolkit</p>
+                    <p>@media Queries</p>
+                  </div>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Project Difficulties</h2>
+                  <p>
+                    Creating my portfolio website has presented me with the challenge of learning Redux,
+                    a concept I am completely new to. I have dedicated a significant amount of time to
+                    understanding its fundamentals and how it can be implemented effectively.
+                  </p>
+                </div>
+                <div className='py-2'>
+                  <h2 className='text-lg mt-4 font-bold text-teal-600'>Solution</h2>
+                  <p>
+                    As a beginner on the journey to understanding Redux, I am well aware of the inherent
+                    difficulty associated with this concept. To overcome this hurdle, I proactively researched
+                    how others have used analogies to explain Redux, which has helped me a lot with my project.
+                  </p>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://main--vermillion-praline-730caf.netlify.app/">View Project</a>
+                </div>
+              </div>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
                 <h1 className='text-2xl text-center'>DogApi</h1>
                 <img className='mt-6 w-80 h-50 mx-auto' src="DogApi.jpg"></img>
