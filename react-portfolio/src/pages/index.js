@@ -84,7 +84,7 @@ export default function Home() {
                     difficulty associated with this concept. To overcome this hurdle, I proactively researched
                     how others have used analogies to explain Redux, which has helped me a lot with my project.
                   </p>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://main--vermillion-praline-730caf.netlify.app/">View Project</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-3 mt-12 rounded-md flex justify-center project-card btn btn-lg btn-block btn-outline-primary font-medium' target="_blank" href="https://shopicart.onrender.com/">View Project</a>
                 </div>
               </div>
               <div className='rounder-xl p-10 shadow-lg my-10 border'>
